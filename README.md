@@ -55,7 +55,4 @@ else:
     print("\nInsight: The review tone is neutral or negative.")
 
 Result:
-<img width="1062" height="252" alt="Screenshot 2026-03-19 121451" src="https://github.com/user-attachments/assets/e825561a-dc4e-4b4c-9d3e-26546adc38f7" />
-<img width="1072" height="292" alt="Screenshot 2026-03-19 121214" src="https://github.com/user-attachments/assets/ab897abd-ab65-497d-bba3-99d072f8375c" />
-
-
+<img width="1072" height="292" alt="Screenshot 2026-03-19 121214" src="https://github.com/user-attachments/assets/c5aefd94-6b25-4814-97ce-b1650c205556" />
