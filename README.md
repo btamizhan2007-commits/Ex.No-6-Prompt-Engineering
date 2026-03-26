@@ -55,3 +55,5 @@ else:
     print("\nInsight: The review tone is neutral or negative.")
 
 Result:
+![WhatsApp Image 2026-03-26 at 10 20 45 AM](https://github.com/user-attachments/assets/6783919f-b698-4e3d-a458-5ac1e86d038f)
+
