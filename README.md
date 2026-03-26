@@ -11,6 +11,51 @@ Compare outputs from different APIs.
 Analyze the response and the Output.
 
 The aim is to understand how to request help from AI tools for tasks like writing Python code, integrating with APIs, comparing outputs, and generating actionable insights.
+program:
+```
+[10:08 am, 26/03/2026] Kavi  (AI DS) : POSITIVE ANALYSIS
+from nltk.sentiment import SentimentIntensityAnalyzer
+import nltk
+nltk.download('vader_lexicon')
+generated_text = "This smartphone offers outstanding battery life and an intelligent AI camera that captures stunning photos. i want this into negative statement"
+
+print("Generated Review:\n")
+print(generated_text)
+sia = SentimentIntensityAnalyzer()
+sentiment = sia.polarity_scores(generated_text)
+print("\nSentiment Analysis:")
+print(sentiment)
+if sentiment['compound'] > 0:
+    print("\nInsight: The review is positive and suitable for marketing promotion.")
+else:
+    print("\nInsight: The review tone is neutral or negative.")
+[10:08 am, 26/03/2026] Kavi  (AI DS) : NEGATIVE ANALYSIS 
+
+from nltk.sentiment import SentimentIntensityAnalyzer
+import nltk
+
+nltk.download('vader_lexicon')
 
 
-Result: 
+generated_text = "This smartphone does not offer outstanding battery life and does not have an intelligent AI camera that captures stunning photos."
+
+print("Generated Review:\n")
+print(generated_text)
+
+
+sia = SentimentIntensityAnalyzer()
+sentiment = sia.polarity_scores(generated_text)
+
+print("\nSentiment Analysis:")
+print(sentiment)
+
+if sentiment['compound'] > 0:
+    print("\nInsight: The review is positive and suitable for marketing promotion.")
+else:
+    print("\nInsight: The review tone is neutral or negative.")
+
+Result:
+<img width="1062" height="252" alt="Screenshot 2026-03-19 121451" src="https://github.com/user-attachments/assets/e825561a-dc4e-4b4c-9d3e-26546adc38f7" />
+<img width="1072" height="292" alt="Screenshot 2026-03-19 121214" src="https://github.com/user-attachments/assets/ab897abd-ab65-497d-bba3-99d072f8375c" />
+
+
