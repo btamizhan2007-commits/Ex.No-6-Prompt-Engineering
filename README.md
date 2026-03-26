@@ -53,7 +53,10 @@ if sentiment['compound'] > 0:
     print("\nInsight: The review is positive and suitable for marketing promotion.")
 else:
     print("\nInsight: The review tone is neutral or negative.")
+```
 
 Result:
 ![WhatsApp Image 2026-03-26 at 10 20 45 AM](https://github.com/user-attachments/assets/6783919f-b698-4e3d-a458-5ac1e86d038f)
+![WhatsApp Image 2026-03-26 at 10 21 02 AM](https://github.com/user-attachments/assets/a727ee4d-e28e-4b9a-b73e-3d24a10c22ce)
+
 
